@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h2>Regestration</h2>
+		<form>
+			<label for="Full Name">Full name:</label>
+                        <br>
+			<input type ="text" id="Full Name" required minlength="10"></input><br>
+			<label for="email" >email:</label>
+			<br>
+			<input type= "email" id="email" required ></input> <br>
+			<label for="passw">Password:</label><br>
+			<input type="password" id="passw" required minlength="8"></input><br>
+			<p>What is your gender?</p>
+			<form>
+			<input type="radio" id="Female" name="gender" required >
+			<label for="Female">Female</label><br>
+			<input type="radio" id="Male" name="gender">
+			<label for="Male">Male</label><br>
+			<input type="radio" id="Prefer not to say" name="gender">
+			<label for="Prefer not to say">Prefer not to say</label><br>
+			</form>
+			<p>Can u attend daily?</p>
+			<form>
+				<input type="checkbox" id="op1" >
+				<label for="op1">I can attend daily in person</label><br>
+				<input type="checkbox" id="op2">
+				<label for="op2">Ican attend daily online</label><br>
+				<input type="checkbox" id="op3">
+				<label for="op3">I can not attend daily</label><br>
+			</form>
+			<br>
+			<br>
+			<form>
+				<label for="time">choose time :</label><br>
+				<select name="time slot" id="time" required>
+					<option>9Am</option>
+					<option>10AM</option>
+					<option>11AM</option>
+					<option>12PM</option>
+				</select>
+			</form>
+			<br>
+			<br>
+			<label for="notes">add any notes:</label><br>
+		
+
+			<textarea id="notes" rows="10" cols="40"></textarea>
+
+
+
+		<br>
+		<br>
+		<br>
+                <input type="submit" id="subnit" value ="submit">
+                <label for="subnit">Click button to Submit:</label><br>
+		</form>
+		
+</body>
